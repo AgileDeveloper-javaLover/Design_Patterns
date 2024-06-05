@@ -1,5 +1,3 @@
-package com.activemesa.creational.builder;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -85,7 +83,7 @@ class HtmlBuilder
   }
 }
 
-class BuilderDemo
+public class Builder
 {
   public static void main(String[] args)
   {

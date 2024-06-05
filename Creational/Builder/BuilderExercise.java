@@ -1,8 +1,3 @@
-package com.activemesa.creational.builder.exercise;
-
-import org.junit.Test;
-import org.junit.Assert;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,6 +54,16 @@ class CodeBuilder
   @Override
   public String toString() {
     return theClass.toString();
+  }
+}
+
+public class BuilderExercise{
+  public static void main(String[] args) {
+    CodeBuilder cb=new CodeBuilder("TestClass")
+    .addField("Name", "String")
+    .addField("Sex","String");
+    System.out.println(cb);
+    
   }
 }
 

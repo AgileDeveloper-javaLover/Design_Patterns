@@ -1,5 +1,3 @@
-package com.activemesa.creational.builder;
-
 // builder inheritance with recursive generics
 
 class Person
@@ -59,7 +57,7 @@ class EmployeeBuilder
   }
 }
 
-class RecursiveGenericsDemo
+public class RecursiveGenerics
 {
   public static void main(String[] args)
   {

@@ -1,5 +1,3 @@
-package com.activemesa.creational.builder.facets;
-
 class Person
 {
   // address
@@ -97,7 +95,7 @@ class PersonJobBuilder extends PersonBuilder
   }
 }
 
-class BuilderFacetsDemo
+public class BuilderFacets
 {
   public static void main(String[] args)
   {
